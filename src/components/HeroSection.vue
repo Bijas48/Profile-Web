@@ -1,5 +1,7 @@
 <script setup>
 import { ref, onMounted } from 'vue'
+import { Icon } from '@iconify/vue'
+import imageSaya from '@/assets/images/iniguehehe.jpg'
 
 const words = ['Adrian Kusuma', 'Backend Developer', 'Cloud Engineer', 'Software Developer']
 let i = 0
@@ -103,28 +105,100 @@ onMounted(() => {
 </script>
 
 <template>
-  <section class="relative mx-auto h-[80vh] lg:h-screen bg-slate-50 p-16 w-full">
+  <section class="relative mx-auto h-screen bg-inherit bg-slate-50 p-24 w-full">
     <div class="flex flex-col lg:flex-row justify-center items-center w-full h-full">
-      <div class="w-full flex flex-row justify-center items-center">
+      <div
+        v-motion
+        :initial="{ opacity: 0, x: 100 }"
+        :enter="{ opacity: 1, x: 0 }"
+        :variants="{
+          visible: { opacity: 1, x: 0 },
+          hidden: { opacity: 0, x: 100 },
+        }"
+        :visible="{ opacity: 1, x: 0 }"
+        :duration="800"
+        class="w-full flex flex-row justify-center items-center h-1/2 lg:pl-7"
+      >
         <div class="flex flex-col justify-center items-center mt-5">
           <div class="h-8 w-8 rounded-full bg-slate-800"></div>
-          <div class="w-1 h-40 bg-gradient-to-b from-slate-800 via-slate-600 to-slate-50"></div>
+          <div class="w-1 h-80 bg-gradient-to-b from-slate-800 via-slate-600 to-slate-50"></div>
         </div>
         <div>
-          <h1 class="text-4xl font-bold text-slate-600">
-            Hi, I’m <span class="text-4xl font-bold text-slate-800">{{ typewriter }}</span
+          <h1 class="text-base lg:text-4xl font-bold text-slate-600">
+            Hi, I’m
+            <span class="text-base lg:text-4xl font-bold text-slate-800">{{ typewriter }}</span
             ><span class="blinking-cursor">|</span>
           </h1>
-          <p class="font-semibold">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi odit vero molestiae, ab
-            quisquam provident inventore praesentium ullam voluptatem nihil, vitae soluta laborum
-            omnis ea quam maxime at dolorem itaque.
+          <p class="font-semibold text-xs">
+            Just a curious person with an adventurous spirit, always eager to learn and grow. I
+            embrace challenges and believe every experience makes me stronger and more capable. If
+            there's a chance to try, why not? Just send it and keep hustling!
           </p>
+          <div class="flex flex-row gap-4 items-center justify-start mt-8">
+            <button
+              class="bg-slate-600 w-50 lg:w-60 p-3 lg:p-8 rounded-xl scale-90 hover:scale-100 hover:-translate-y-1 transition-all duration-300 shadow-sm hover:shadow-lg hover:shadow-gray-400"
+            >
+              <div class="flex flex-row items-center justify-between text-slate-50">
+                <p class="hidden sm:block text-sm lg:text-lg font-semibold">Here is my CV</p>
+                <Icon class="h-8 w-8 sm:h-10 sm:w-10" icon="line-md:text-box" />
+              </div>
+            </button>
+            <button
+              class="text-slate-600 rounded-xl scale-90 hover:scale-100 hover:-translate-y-1 transition-all duration-300 shadow-sm hover:shadow-lg hover:shadow-gray-400"
+            >
+              <Icon class="h-8 w-8 sm:h-10 sm:w-10 lg:h-20 lg:w-20 p-2" icon="line-md:linkedin" />
+            </button>
+            <button
+              class="text-slate-600 rounded-xl scale-90 hover:scale-100 hover:-translate-y-1 transition-all duration-300 shadow-sm hover:shadow-lg hover:shadow-gray-400"
+            >
+              <Icon class="h-8 w-8 sm:h-10 sm:w-10 lg:h-20 lg:w-20" icon="line-md:github-loop" />
+            </button>
+            <button
+              class="text-slate-600 rounded-xl scale-90 hover:scale-100 hover:-translate-y-1 transition-all duration-300 shadow-sm hover:shadow-lg hover:shadow-gray-400"
+            >
+              <Icon class="h-8 w-8 sm:h-10 sm:w-10 lg:h-20 lg:w-20" icon="line-md:instagram" />
+            </button>
+            <button
+              class="text-slate-600 rounded-xl scale-90 hover:scale-100 hover:-translate-y-1 transition-all duration-300 shadow-sm hover:shadow-lg hover:shadow-gray-400"
+            >
+              <Icon class="h-8 w-8 sm:h-10 sm:w-10 lg:h-20 lg:w-20" icon="line-md:email-twotone" />
+            </button>
+          </div>
         </div>
       </div>
 
-      <div class="w-full">test 2</div>
-      <canvas id="particleCanvas" class="canvas w-full" :class="{ 'is-masked': masked }"></canvas>
+      <div
+        v-motion
+        :initial="{ opacity: 0, x: -100 }"
+        :enter="{ opacity: 1, x: 0 }"
+        :variants="{
+          visible: { opacity: 1, x: 0 },
+          hidden: { opacity: 0, x: -100 },
+        }"
+        :visible="{ opacity: 1, x: 0 }"
+        :duration="800"
+        class="relative flex flex-col justify-center items-center w-[30rem] h-[30rem] lg:w-[55rem] p-16 lg:h-[45rem]"
+      >
+        <div class="absolute top-9 left-20 flex flex-col items-center gap-6">
+          <div class="h-36 lg:h-48 w-6 lg:w-10 bg-slate-800 rounded-full"></div>
+          <div class="h-10 lg:h-14 w-6 lg:w-10 bg-slate-500 rounded-full"></div>
+        </div>
+        <img class="h-[20rem] lg:h-fit rounded-lg shadow-md" :src="imageSaya" alt="Ini Saya" />
+        <div
+          class="absolute bg-slate-300 bottom-10 right-15 lg:right-7 w-fit h-15 px-10 lg:h-20 lg:px-20 py-1 text-center rounded-2xl font-semibold shadow-md scale-90 hover:scale-100 duration-300 transition-all hover:shadow-lg hover:shadow-gray-400"
+        >
+          <div class="flex flex-col items-center justify-center py-2">
+            <p>Currently working on</p>
+            <span class="font-bold text-lg lg:text-xl">PT Usaha Maju Makmur</span>
+          </div>
+        </div>
+      </div>
+
+      <canvas
+        id="particleCanvas"
+        class="canvas w-full bg-slate-50 -z-10"
+        :class="{ 'is-masked': masked }"
+      ></canvas>
     </div>
   </section>
 </template>

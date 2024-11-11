@@ -16,7 +16,7 @@ const navbarBackground = computed(() => {
 <template>
   <nav
     :class="[
-      `flex flex-col justify-between lg:flex-row px-20 py-10 transition-all duration-300`,
+      `flex flex-col justify-between lg:flex-row px-8 lg:px-20 py-10 transition-all duration-300`,
       navbarBackground,
     ]"
   >
@@ -51,10 +51,13 @@ const navbarBackground = computed(() => {
             <a class="hover:text-gray-900 transition ease-in-out duration-300" href="">Home</a>
           </li>
           <li class="font-semibold text-gray-700">
-            <a class="hover:text-gray-900 transition ease-in-out duration-300" href="">Articles</a>
+            <a class="hover:text-gray-900 transition ease-in-out duration-300" href="">About</a>
           </li>
           <li class="font-semibold text-gray-700">
-            <a class="hover:text-gray-900 transition ease-in-out duration-300" href="">Articles</a>
+            <a class="hover:text-gray-900 transition ease-in-out duration-300" href="">Projects</a>
+          </li>
+          <li class="font-semibold text-gray-700">
+            <a class="hover:text-gray-900 transition ease-in-out duration-300" href="">Contact</a>
           </li>
         </ul>
       </nav>

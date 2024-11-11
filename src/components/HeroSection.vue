@@ -124,12 +124,14 @@ onMounted(() => {
           <div class="w-1 h-80 bg-gradient-to-b from-slate-800 via-slate-600 to-slate-50"></div>
         </div>
         <div>
-          <h1 class="text-base lg:text-4xl font-bold text-slate-600">
+          <h1 class="text-base sm:text-2xl lg:text-4xl font-bold text-slate-600">
             Hi, I’m
-            <span class="text-base lg:text-4xl font-bold text-slate-800">{{ typewriter }}</span
+            <span class="text-base sm:text-2xl lg:text-4xl font-bold text-slate-800">{{
+              typewriter
+            }}</span
             ><span class="blinking-cursor">|</span>
           </h1>
-          <p class="font-semibold text-xs lg:text-xl">
+          <p class="font-semibold text-xs sm:text-base lg:text-xl">
             Just a curious person with an adventurous spirit, always eager to learn and grow. I
             embrace challenges and believe every experience makes me stronger and more capable. If
             there's a chance to try, why not? Just send it and keep hustling!

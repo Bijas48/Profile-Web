@@ -129,7 +129,7 @@ onMounted(() => {
             <span class="text-base lg:text-4xl font-bold text-slate-800">{{ typewriter }}</span
             ><span class="blinking-cursor">|</span>
           </h1>
-          <p class="font-semibold text-xs">
+          <p class="font-semibold text-xs lg:text-xl">
             Just a curious person with an adventurous spirit, always eager to learn and grow. I
             embrace challenges and believe every experience makes me stronger and more capable. If
             there's a chance to try, why not? Just send it and keep hustling!

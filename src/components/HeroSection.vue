@@ -131,14 +131,14 @@ onMounted(() => {
             }}</span
             ><span class="blinking-cursor">|</span>
           </h1>
-          <p class="font-semibold text-xs sm:text-base lg:text-xl">
+          <p class="font-semibold text-xs sm:text-base">
             Just a curious person with an adventurous spirit, always eager to learn and grow. I
             embrace challenges and believe every experience makes me stronger and more capable. If
             there's a chance to try, why not? Just send it and keep hustling!
           </p>
           <div class="flex flex-row gap-4 items-center justify-start mt-8">
             <button
-              class="bg-slate-600 w-50 lg:w-60 p-3 lg:p-8 rounded-xl scale-90 hover:scale-100 hover:-translate-y-1 transition-all duration-300 shadow-sm hover:shadow-lg hover:shadow-gray-400"
+              class="bg-slate-600 w-50 lg:w-60 p-3 lg:p-5 rounded-xl scale-90 hover:scale-100 hover:-translate-y-1 transition-all duration-300 shadow-sm hover:shadow-lg hover:shadow-gray-400"
             >
               <div class="flex flex-row items-center justify-between text-slate-50">
                 <p class="hidden sm:block text-sm lg:text-lg font-semibold">Here is my CV</p>
@@ -148,22 +148,22 @@ onMounted(() => {
             <button
               class="text-slate-600 rounded-xl scale-90 hover:scale-100 hover:-translate-y-1 transition-all duration-300 shadow-sm hover:shadow-lg hover:shadow-gray-400"
             >
-              <Icon class="h-8 w-8 sm:h-10 sm:w-10 lg:h-20 lg:w-20 p-2" icon="line-md:linkedin" />
+              <Icon class="h-8 w-8 sm:h-10 sm:w-10 lg:h-14 lg:w-14 p-2" icon="line-md:linkedin" />
             </button>
             <button
               class="text-slate-600 rounded-xl scale-90 hover:scale-100 hover:-translate-y-1 transition-all duration-300 shadow-sm hover:shadow-lg hover:shadow-gray-400"
             >
-              <Icon class="h-8 w-8 sm:h-10 sm:w-10 lg:h-20 lg:w-20" icon="line-md:github-loop" />
+              <Icon class="h-8 w-8 sm:h-10 sm:w-10 lg:h-14 lg:w-14" icon="line-md:github-loop" />
             </button>
             <button
               class="text-slate-600 rounded-xl scale-90 hover:scale-100 hover:-translate-y-1 transition-all duration-300 shadow-sm hover:shadow-lg hover:shadow-gray-400"
             >
-              <Icon class="h-8 w-8 sm:h-10 sm:w-10 lg:h-20 lg:w-20" icon="line-md:instagram" />
+              <Icon class="h-8 w-8 sm:h-10 sm:w-10 lg:h-14 lg:w-14" icon="line-md:instagram" />
             </button>
             <button
               class="text-slate-600 rounded-xl scale-90 hover:scale-100 hover:-translate-y-1 transition-all duration-300 shadow-sm hover:shadow-lg hover:shadow-gray-400"
             >
-              <Icon class="h-8 w-8 sm:h-10 sm:w-10 lg:h-20 lg:w-20" icon="line-md:email-twotone" />
+              <Icon class="h-8 w-8 sm:h-10 sm:w-10 lg:h-14 lg:w-14" icon="line-md:email-twotone" />
             </button>
           </div>
         </div>
@@ -179,14 +179,16 @@ onMounted(() => {
         }"
         :visible="{ opacity: 1, x: 0 }"
         :duration="800"
-        class="relative flex flex-col justify-center items-center w-[30rem] h-[30rem] lg:w-[55rem] p-16 lg:h-[45rem]"
+        class="relative flex flex-col justify-center items-center p-16 w-[30rem] h-[30rem] lg:w-[50rem] lg:h-[40rem]"
       >
-        <div class="absolute top-9 left-20 flex flex-col items-center gap-6">
+        <div
+          class="absolute top-16 lg:top-9 left-28 lg:left-14 flex flex-col items-center gap-6 z-10"
+        >
           <div class="h-36 lg:h-48 w-6 lg:w-10 bg-slate-800 rounded-full"></div>
           <div class="h-10 lg:h-14 w-6 lg:w-10 bg-slate-500 rounded-full"></div>
         </div>
         <img
-          class="h-[20rem] lg:h-fit shadow-md relative z-0 rounded-lg transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-gray-400"
+          class="h-[18rem] lg:h-fit shadow-md relative z-0 rounded-lg transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-gray-400"
           :src="imageSaya"
           alt="Ini Saya"
         />

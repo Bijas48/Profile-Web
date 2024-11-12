@@ -10,7 +10,7 @@ const hoverTransform = computed(() => {
   const MAX_ROTATION = 12
 
   const rX = (MAX_ROTATION / 2 - (elementY.value / elementHeight.value) * MAX_ROTATION).toFixed(2)
-  const rY = (MAX_ROTATION / 2 - (elementX.value / elementWidth.value) * MAX_ROTATION).toFixed(2)
+  const rY = ((elementX.value / elementWidth.value) * MAX_ROTATION - MAX_ROTATION / 2).toFixed(2)
 
   return isOutside.value
     ? ''
@@ -34,8 +34,8 @@ const hoverTransform = computed(() => {
     <section class="relative mx-auto bg-slate-300 p-12 md:p-24 w-full">
       <div
         ref="target"
-        class="group flex flex-col text-left md:text-center scale-95 hover:scale-100 duration-300 transition-all"
         :style="{ transform: hoverTransform, transition: 'transform 0.25s ease-out' }"
+        class="group flex flex-col text-left md:text-center scale-95 hover:scale-100 duration-300 transition-all"
       >
         <h1
           v-motion
@@ -47,7 +47,7 @@ const hoverTransform = computed(() => {
           }"
           :visible="{ opacity: 1, x: 0 }"
           :duration="800"
-          class="relative text-base sm:text-2xl lg:text-4xl font-bold text-slate-600"
+          class="relative text-base sm:text-3xl lg:text-6xl font-bold text-slate-600"
         >
           About Me
         </h1>
@@ -74,6 +74,7 @@ const hoverTransform = computed(() => {
         ></span>
       </div>
     </section>
+
     <div class="relative w-full overflow-hidden leading-[0]">
       <svg
         data-name="Layer 1"

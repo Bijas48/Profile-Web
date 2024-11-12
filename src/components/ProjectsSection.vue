@@ -1,7 +1,9 @@
 <script setup></script>
 
 <template>
-  <div>Ini Projects</div>
+  <section>
+    <div>Ini Projects</div>
+  </section>
 </template>
 
 <style scoped></style>

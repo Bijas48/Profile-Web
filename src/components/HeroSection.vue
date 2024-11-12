@@ -105,7 +105,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <section class="relative mx-auto h-screen bg-inherit bg-slate-50 p-24 w-full">
+  <section class="relative mx-auto lg:h-screen bg-inherit p-24 w-full">
     <div class="flex flex-col lg:flex-row justify-center items-center w-full h-full">
       <div
         v-motion
@@ -124,7 +124,7 @@ onMounted(() => {
           <div class="w-1 h-80 bg-gradient-to-b from-slate-800 via-slate-600 to-slate-50"></div>
         </div>
         <div>
-          <h1 class="text-base sm:text-2xl lg:text-4xl font-bold text-slate-600">
+          <h1 class="text-base sm:text-2xl lg:text-4xl font-bold text-slate-600 mb-4">
             Hi, I’m
             <span class="text-base sm:text-2xl lg:text-4xl font-bold text-slate-800">{{
               typewriter
@@ -185,7 +185,11 @@ onMounted(() => {
           <div class="h-36 lg:h-48 w-6 lg:w-10 bg-slate-800 rounded-full"></div>
           <div class="h-10 lg:h-14 w-6 lg:w-10 bg-slate-500 rounded-full"></div>
         </div>
-        <img class="h-[20rem] lg:h-fit rounded-lg shadow-md" :src="imageSaya" alt="Ini Saya" />
+        <img
+          class="h-[20rem] lg:h-fit shadow-md relative z-0 rounded-lg transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-gray-400"
+          :src="imageSaya"
+          alt="Ini Saya"
+        />
         <div
           class="absolute bg-slate-300 bottom-10 right-15 lg:right-7 w-fit h-15 px-10 lg:h-20 lg:px-20 py-1 text-center rounded-2xl font-semibold shadow-md scale-90 hover:scale-100 duration-300 transition-all hover:shadow-lg hover:shadow-gray-400"
         >

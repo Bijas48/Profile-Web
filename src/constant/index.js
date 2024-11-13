@@ -78,13 +78,12 @@ const experiences = [
     date: 'November 2023 - July 2024',
     image: imageExperience3,
     desc: [
-      ' Current GPA: 3.73/4.00',
-      ' Student Association: Served as Vice Chairman of the Legislature, improving work effectiveness by 40% through five legislative regulations. Actively participated as a steering committee member within the legislative domain.',
-      ' Competitions:',
-      ' 2nd Runner Up in the Debate Competition (UPI Purwakarta, 2023)',
-      ' Runner Up in the Debate Competition (UPI Purwakarta, 2022)',
+      'Participated in Web Development workshops',
+      'Engaged in Cloud Computing learning sessions',
+      'Assisted in building a supportive tech community',
+      'Attended events such as Build with AI and DevFest',
     ],
-    link: '#', // Replace with actual link
+    link: 'https://www.linkedin.com/company/google-developer-student-clubs-upi',
     type: 'Seasonal',
     color: 'bg-slate-300',
   },

@@ -53,11 +53,13 @@ const events = ref(experiences)
         class="flex flex-col justify-center items-center mx-auto w-full"
       >
         <div
-          class="bg-white rounded-lg shadow-lg overflow-hidden w-full scale-90 hover:scale-100 transition-all duration-300 hover:shadow-2xl"
+          class="bg-white rounded-lg shadow-lg overflow-hidden scale-90 hover:scale-100 transition-all duration-300 hover:shadow-2xl"
           ref="target"
         >
           <div class="p-6 text-left">
-            <h2 class="text-2xl font-bold text-gray-800 mb-2">{{ slotProps.item.title }}</h2>
+            <h2 class="text-lg md:text-2xl font-bold text-gray-800 mb-2">
+              {{ slotProps.item.title }}
+            </h2>
             <p class="text-sm text-gray-500 mb-2">{{ slotProps.item.date }}</p>
 
             <div
@@ -85,7 +87,7 @@ const events = ref(experiences)
               >
                 <div class="flex items-center space-x-2 group">
                   <span
-                    class="text-slate-500 group-hover:text-slate-800 font-semibold transition-all duration-300"
+                    class="text-slate-500 group-hover:text-slate-800 font-semibold transition-all duration-300 text-sm md:text-base"
                   >
                     Find Out!
                   </span>

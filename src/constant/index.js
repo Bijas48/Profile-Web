@@ -88,7 +88,37 @@ const experiences = [
     color: 'bg-slate-300',
   },
 ]
-const techs = [{}]
+const techs = [
+  'devicon:vuejs',
+  'devicon:googlecloud',
+  'devicon:kubernetes',
+  'devicon:bash',
+  'devicon:javascript',
+  'devicon:typescript',
+  'devicon:docker',
+  'devicon:mysql-wordmark',
+  'devicon:postgresql',
+  'devicon:prisma',
+  'devicon:sequelize',
+  'devicon:express',
+  'devicon:bootstrap',
+  'devicon:flutter',
+  'devicon:dart',
+  'devicon:git',
+  'devicon:github',
+  'devicon:ubuntu',
+  'devicon:html5',
+  'devicon:css3',
+  'devicon:linux',
+  'devicon:tailwindcss',
+  'devicon:nodejs',
+  'devicon:python',
+  'devicon:streamlit',
+  'devicon:jupyter-wordmark',
+  'devicon:npm',
+  'devicon:notion',
+  'devicon:trello',
+]
 const certificates = [{}]
 
 export { projects, experiences, techs, certificates }

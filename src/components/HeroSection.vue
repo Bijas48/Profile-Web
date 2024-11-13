@@ -179,10 +179,10 @@ onMounted(() => {
         }"
         :visible="{ opacity: 1, x: 0 }"
         :duration="800"
-        class="relative flex flex-col justify-center items-center p-16 w-[30rem] h-[30rem] lg:w-[50rem] lg:h-[40rem]"
+        class="relative flex flex-col justify-center items-center p-8 lg:p-16 w-[20rem] h-[30rem] lg:w-[50rem] lg:h-[40rem]"
       >
         <div
-          class="absolute top-16 lg:top-9 left-28 lg:left-14 flex flex-col items-center gap-6 z-10"
+          class="absolute top-16 lg:top-9 left-10 lg:left-14 flex flex-col items-center gap-6 z-10"
         >
           <div class="h-36 lg:h-48 w-6 lg:w-10 bg-slate-800 rounded-full"></div>
           <div class="h-10 lg:h-14 w-6 lg:w-10 bg-slate-500 rounded-full"></div>
@@ -196,8 +196,8 @@ onMounted(() => {
           class="absolute bg-slate-300 bottom-10 right-15 lg:right-7 w-fit h-15 px-10 lg:h-20 lg:px-20 py-1 text-center rounded-2xl font-semibold shadow-md scale-90 hover:scale-100 duration-300 transition-all hover:shadow-lg hover:shadow-gray-400"
         >
           <div class="flex flex-col items-center justify-center py-2">
-            <p>Currently working on</p>
-            <span class="font-bold text-lg lg:text-xl">PT Usaha Maju Makmur</span>
+            <p class="text-xs md:text-sm lg:text-base">Currently working on</p>
+            <span class="font-bold text-base md:text-lg lg:text-xl">PT Usaha Maju Makmur</span>
           </div>
         </div>
       </div>

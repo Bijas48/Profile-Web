@@ -48,16 +48,24 @@ const navbarBackground = computed(() => {
           class="flex flex-col lg:flex-row items-center space-y-6 lg:space-y-0 lg:space-x-12 first:pt-6 lg:first:pt-0"
         >
           <li class="font-semibold text-gray-700">
-            <a class="hover:text-gray-900 transition ease-in-out duration-300" href="">Home</a>
+            <a class="hover:text-gray-900 transition ease-in-out duration-300" href="#About"
+              >About</a
+            >
           </li>
           <li class="font-semibold text-gray-700">
-            <a class="hover:text-gray-900 transition ease-in-out duration-300" href="">About</a>
+            <a class="hover:text-gray-900 transition ease-in-out duration-300" href="#Projects"
+              >Projects</a
+            >
           </li>
           <li class="font-semibold text-gray-700">
-            <a class="hover:text-gray-900 transition ease-in-out duration-300" href="">Projects</a>
+            <a class="hover:text-gray-900 transition ease-in-out duration-300" href="#Experience"
+              >Experience</a
+            >
           </li>
           <li class="font-semibold text-gray-700">
-            <a class="hover:text-gray-900 transition ease-in-out duration-300" href="">Contact</a>
+            <a class="hover:text-gray-900 transition ease-in-out duration-300" href="#Contact"
+              >Contact</a
+            >
           </li>
         </ul>
       </nav>

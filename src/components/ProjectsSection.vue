@@ -4,7 +4,7 @@ import CardsComponent from './CardsComponent.vue'
 </script>
 
 <template>
-  <section class="relative mx-auto bg-inherit p-12 md:p-24 w-full">
+  <section class="relative mx-auto bg-inherit p-12 md:p-24 w-full" id="Projects">
     <div
       v-motion
       :initial="{ opacity: 0, y: 100 }"
@@ -24,7 +24,9 @@ import CardsComponent from './CardsComponent.vue'
         <span class="w-3 h-2 bg-slate-800 rounded-full"></span>
         <span class="w-5 h-2 bg-slate-800 rounded-full"></span>
         <span class="w-1/3 h-2 bg-slate-800 rounded-full"></span>
-        <h1 class="text-base sm:text-3xl lg:text-6xl font-bold text-slate-800 px-8">Projects</h1>
+        <h1 class="text-xl sm:text-3xl lg:text-6xl font-bold text-slate-800 px-3 md:px-8">
+          Projects
+        </h1>
         <span class="w-1/3 h-2 bg-slate-800 rounded-full"></span>
         <span class="w-5 h-2 bg-slate-800 rounded-full"></span>
         <span class="w-3 h-2 bg-slate-800 rounded-full"></span>

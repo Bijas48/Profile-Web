@@ -19,7 +19,7 @@ const hoverTransform = computed(() => {
 </script>
 
 <template>
-  <div>
+  <div id="About" class="w-full">
     <div class="relative w-full overflow-hidden leading-[0]">
       <svg
         data-name="Layer 1"

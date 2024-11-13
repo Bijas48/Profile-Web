@@ -1,5 +1,9 @@
 <script setup></script>
 
 <template>
-  <div>Test ini Footer</div>
+  <Section id="Contact">
+    <div>Test ini Footer</div>
+  </Section>
 </template>
+
+<style scoped></style>

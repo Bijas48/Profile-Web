@@ -2,7 +2,7 @@
 import { ref, onMounted } from 'vue'
 import { Icon } from '@iconify/vue'
 import imageSaya from '@/assets/images/iniguehehe.jpg'
-import resume from '@/assets/pdf/resume.pdf'
+import resume from '/pdf/resume.pdf'
 
 const words = ['Adrian Kusuma', 'Backend Developer', 'Cloud Engineer', 'Software Developer']
 let i = 0

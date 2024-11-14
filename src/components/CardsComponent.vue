@@ -42,7 +42,7 @@ defineProps({
       ref="target"
       :style="{ transform: hoverTransform, transition: 'transform 0.25s ease-out' }"
     >
-      <img :src="project.image" alt="Mountain" class="w-full h-64 object-cover" />
+      <img :src="project.image" class="w-full h-64 object-cover" />
       <div class="p-6">
         <h2 class="text-2xl font-bold text-gray-800 mb-2">{{ project.title }}</h2>
 

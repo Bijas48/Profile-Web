@@ -53,7 +53,7 @@ const events = ref(experiences)
         class="flex flex-col justify-center items-center mx-auto w-full"
       >
         <div
-          class="bg-white rounded-lg shadow-lg overflow-hidden scale-90 hover:scale-100 transition-all duration-300 hover:shadow-2xl"
+          class="bg-white rounded-lg shadow-lg overflow-hidden scale-90 hover:scale-100 transition-all duration-300 hover:shadow-2xl w-full"
           ref="target"
         >
           <div class="p-6 text-left">

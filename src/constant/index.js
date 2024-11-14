@@ -6,6 +6,8 @@ import imageProject5 from '@/assets/images/Vue-Project.png'
 import imageExperience1 from '@/assets/images/Logo_UPI.png'
 import imageExperience2 from '@/assets/images/Prolite_News.png'
 import imageExperience3 from '@/assets/images/GDSC.jpg'
+import imageEducation1 from '@/assets/images/Logo_UPI.png'
+import imageEducation2 from '@/assets/images/logo_bangkit.png'
 
 const projects = [
   {
@@ -47,7 +49,7 @@ const projects = [
 const experiences = [
   {
     title: 'Website Editor and Data Entry at PGSD UPI Purwakarta',
-    date: 'October 2022 - October 2022',
+    date: 'October 2022',
     image: imageExperience1,
     desc: [
       "Played a pivotal role in the campus accreditation process by ensuring the department's website was meticulously updated and maintained.",
@@ -62,7 +64,7 @@ const experiences = [
   },
   {
     title: 'News Writer at Prolite News',
-    date: 'June 2023 - August 2023',
+    date: 'June - August 2023',
     image: imageExperience2,
     desc: [
       'Crafted a diverse array of content across multiple categories, including: General news, Events, National and international affairs, Business, Lifestyle, Automotive, Technology, Community stories',
@@ -105,10 +107,12 @@ const techs = [
   'devicon:flutter',
   'devicon:dart',
   'devicon:git',
+  'logos:pinia',
   'devicon:github',
   'devicon:ubuntu',
   'devicon:html5',
   'devicon:css3',
+  'devicon:vercel',
   'devicon:linux',
   'devicon:tailwindcss',
   'devicon:nodejs',
@@ -119,6 +123,38 @@ const techs = [
   'devicon:notion',
   'devicon:trello',
 ]
-const certificates = [{}]
+const certificates = [
+  {
+    image: '',
+    title: '',
+    link: '',
+  },
+]
+const educations = [
+  {
+    image: imageEducation1,
+    title: 'Education of System and Information Technology Indonesia University of Education',
+    date: 'August 2021 - Present',
+    desc: [
+      'Current GPA: 3.76/4.00',
+      'Participated in the website development for PGSD UPI accreditation',
+      'Competed in Mobile Legends E-Sports and won First Place in an intercampus competition',
+      'Served as a teaching assistant for the Networking course and evaluated students for the UKK TKJ Module 4 at a vocational school',
+    ],
+    link: 'https://www.upi.edu/',
+  },
+  {
+    image: imageEducation2,
+    title: 'Cloud Computing Bangkit Academy By Google, GoTo, Traveloka',
+    date: 'February - July 2024',
+    desc: [
+      'Achieving top 10% Distinction Graduate in Cloud Computing Development',
+      'Completed/Developed a major recommendation application with my capstone team',
+      'Studied networking, back-end development, deployment on Google Cloud, machine learning, and REST API creation',
+      'Selected from 57k+ applicants to join Bangkit – an interdisciplinary program by Google to prepare for a career in leading Indonesian tech companies',
+    ],
+    link: 'https://grow.google/intl/id_id/bangkit/?tab=machine-learning',
+  },
+]
 
-export { projects, experiences, techs, certificates }
+export { projects, experiences, techs, educations, certificates }

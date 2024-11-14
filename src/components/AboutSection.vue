@@ -47,7 +47,7 @@ const hoverTransform = computed(() => {
           }"
           :visible="{ opacity: 1, x: 0 }"
           :duration="800"
-          class="relative text-base sm:text-3xl lg:text-6xl font-bold text-slate-600"
+          class="relative text-base sm:text-3xl lg:text-6xl font-bold text-gray-800"
         >
           About Me
         </h1>

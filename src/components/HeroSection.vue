@@ -137,34 +137,39 @@ onMounted(() => {
             there's a chance to try, why not? Just send it and keep hustling!
           </p>
           <div class="flex flex-row gap-4 items-center justify-start mt-8">
-            <button
+            <a
+              href=""
               class="bg-slate-600 w-50 lg:w-60 p-3 lg:p-5 rounded-xl scale-90 hover:scale-100 hover:-translate-y-1 transition-all duration-300 shadow-sm hover:shadow-lg hover:shadow-gray-400"
             >
               <div class="flex flex-row items-center justify-between text-slate-50">
                 <p class="hidden sm:block text-sm lg:text-lg font-semibold">Here is my CV</p>
                 <Icon class="h-8 w-8 sm:h-10 sm:w-10" icon="line-md:text-box" />
               </div>
-            </button>
-            <button
+            </a>
+            <a
+              href="https://www.linkedin.com/in/adriankusumawk/"
               class="text-slate-600 rounded-xl scale-90 hover:scale-100 hover:-translate-y-1 transition-all duration-300 shadow-sm hover:shadow-lg hover:shadow-gray-400"
             >
               <Icon class="h-8 w-8 sm:h-10 sm:w-10 lg:h-14 lg:w-14 p-2" icon="line-md:linkedin" />
-            </button>
-            <button
+            </a>
+            <a
+              href="https://github.com/bijas48/"
               class="text-slate-600 rounded-xl scale-90 hover:scale-100 hover:-translate-y-1 transition-all duration-300 shadow-sm hover:shadow-lg hover:shadow-gray-400"
             >
               <Icon class="h-8 w-8 sm:h-10 sm:w-10 lg:h-14 lg:w-14" icon="line-md:github-loop" />
-            </button>
-            <button
+            </a>
+            <a
+              href="https://www.instagram.com/adrian_k.w/"
               class="text-slate-600 rounded-xl scale-90 hover:scale-100 hover:-translate-y-1 transition-all duration-300 shadow-sm hover:shadow-lg hover:shadow-gray-400"
             >
               <Icon class="h-8 w-8 sm:h-10 sm:w-10 lg:h-14 lg:w-14" icon="line-md:instagram" />
-            </button>
-            <button
+            </a>
+            <a
+              href="mailto:adriankusumawk@gmail.com"
               class="text-slate-600 rounded-xl scale-90 hover:scale-100 hover:-translate-y-1 transition-all duration-300 shadow-sm hover:shadow-lg hover:shadow-gray-400"
             >
               <Icon class="h-8 w-8 sm:h-10 sm:w-10 lg:h-14 lg:w-14" icon="line-md:email-twotone" />
-            </button>
+            </a>
           </div>
         </div>
       </div>

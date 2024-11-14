@@ -56,7 +56,7 @@ defineProps({
 
         <div
           :class="{ 'line-clamp-4': !showFullDescription }"
-          class="text-gray-700 leading-snug mb-1"
+          class="text-gray-700 leading-snug mb-1 text-sm md:text-base"
         >
           <ul class="px-5">
             <li v-for="(line, index) in education.desc" :key="index" class="list-disc">

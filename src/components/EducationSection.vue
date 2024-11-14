@@ -1,6 +1,7 @@
 <script setup>
 import EducationCardComponent from './EducationCardComponent.vue'
-import { educations } from '@/constant'
+import { certificates, educations } from '@/constant'
+import CertificationComponent from './CertificationComponent.vue'
 </script>
 
 <template>
@@ -30,7 +31,36 @@ import { educations } from '@/constant'
         />
       </div>
 
-      <div>Certificate</div>
+      <h1 class="text-xl sm:text-3xl lg:text-6xl font-bold text-slate-800 mt-10 px-3 md:px-8 ml-4">
+        Certifications
+      </h1>
+      <h3 class="text-base sm:text-xl lg:text-3xl text-gray-700 px-3 pt-1 md:px-8 ml-4">
+        Credentials I've earned...
+      </h3>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 mt-4">
+        <CertificationComponent
+          v-for="certification in certificates"
+          :key="certification.title"
+          :certification="certification"
+        />
+      </div>
+
+      <a
+        v-motion
+        :initial="{ opacity: 0, y: 30 }"
+        :enter="{ opacity: 1, y: 0 }"
+        :variants="{
+          visible: { opacity: 1, y: 0 },
+          hidden: { opacity: 0, y: 30 },
+        }"
+        :visible="{ opacity: 1, y: 0 }"
+        :duration="800"
+        href="https://www.linkedin.com/in/adriankusumawk/details/certifications/"
+        class="font-semibold relative text-slate-500 transition-colors duration-300 ease-in-out hover:text-slate-800 text-left md:text-center m-3"
+      >
+        Explore My Certifications
+      </a>
     </div>
   </Section>
 </template>

@@ -2,6 +2,7 @@
 import { ref, onMounted } from 'vue'
 import { Icon } from '@iconify/vue'
 import imageSaya from '@/assets/images/iniguehehe.jpg'
+import resume from '@/assets/pdf/resume.pdf'
 
 const words = ['Adrian Kusuma', 'Backend Developer', 'Cloud Engineer', 'Software Developer']
 let i = 0
@@ -138,7 +139,7 @@ onMounted(() => {
           </p>
           <div class="flex flex-row gap-4 items-center justify-start mt-8">
             <a
-              href=""
+              :href="resume"
               class="bg-slate-600 w-50 lg:w-60 p-3 lg:p-5 rounded-xl scale-90 hover:scale-100 hover:-translate-y-1 transition-all duration-300 shadow-sm hover:shadow-lg hover:shadow-gray-400"
             >
               <div class="flex flex-row items-center justify-between text-slate-50">

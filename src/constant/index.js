@@ -8,6 +8,9 @@ import imageExperience2 from '@/assets/images/Prolite_News.png'
 import imageExperience3 from '@/assets/images/GDSC.jpg'
 import imageEducation1 from '@/assets/images/Logo_UPI.png'
 import imageEducation2 from '@/assets/images/logo_bangkit.png'
+import imageCertificate1 from '@/assets/images/dicoding_logo.jpg'
+import imageCertificate2 from '@/assets/images/gcsb_logo.jpg'
+import imageCertificate3 from '@/assets/images/google_logo.jpg'
 
 const projects = [
   {
@@ -114,6 +117,7 @@ const techs = [
   'devicon:css3',
   'devicon:vercel',
   'devicon:linux',
+  'devicon:terraform',
   'devicon:tailwindcss',
   'devicon:nodejs',
   'devicon:python',
@@ -125,9 +129,64 @@ const techs = [
 ]
 const certificates = [
   {
-    image: '',
-    title: '',
-    link: '',
+    image: imageCertificate3,
+    title: 'Associate Cloud Engineer Certification',
+    subtitle: 'Google',
+    link: 'https://www.credly.com/badges/7d0d43a6-5840-4846-a87e-fcf8bac8096f/linked_in_profile',
+  },
+  {
+    image: imageCertificate1,
+    title: 'Menjadi Google Cloud Architect',
+    subtitle: 'Dicoding Indonesia',
+    link: 'https://www.dicoding.com/certificates/4EXG7Y9LEPRL',
+  },
+  {
+    image: imageCertificate2,
+    title: 'Google Cloud Computing Foundations Certificate',
+    subtitle: 'Google Cloud Skills Boost',
+    link: 'https://www.credly.com/badges/f9255ba6-28f3-44fb-84d3-55f73890ff0f/linked_in_profile',
+  },
+  {
+    image: imageCertificate2,
+    title: 'Google Cloud Big Data and Machine Learning Fundamentals',
+    subtitle: 'Google Cloud Skills Boost',
+    link: 'https://www.cloudskillsboost.google/public_profiles/312b34f6-945a-45a2-8749-0f54a483c5e7/badges/11324093?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share',
+  },
+  {
+    image: imageCertificate1,
+    title: 'Belajar Membuat Aplikasi Back-End untuk Pemula dengan Google Cloud',
+    subtitle: 'Dicoding Indonesia',
+    link: 'https://www.dicoding.com/certificates/MRZMEQGY0PYQ',
+  },
+  {
+    image: imageCertificate1,
+    title: 'Belajar Penerapan Machine Learning dengan Google Cloud',
+    subtitle: 'Dicoding Indonesia',
+    link: 'https://www.dicoding.com/certificates/QLZ974EY7P5D',
+  },
+  {
+    image: imageCertificate1,
+    title: 'Menjadi Google Cloud Engineer',
+    subtitle: 'Dicoding Indonesia',
+    link: 'https://www.dicoding.com/certificates/L4PQ1862QXO1',
+  },
+  {
+    image: imageCertificate1,
+    title: 'Belajar Dasar Pemrograman JavaScript',
+    subtitle: 'Dicoding Indonesia',
+    link: 'https://www.dicoding.com/certificates/RVZKR64LQPD5',
+  },
+  {
+    image: imageCertificate3,
+    title: 'Google Cybersecurity',
+    subtitle: 'Google Career Certificates',
+    link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/63PC54V9426L',
+  },
+  {
+    image: imageCertificate3,
+    title: 'Google IT Support',
+    subtitle: 'Google Career Certificates',
+    link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/CE3KWPTWP2K2',
   },
 ]
 const educations = [

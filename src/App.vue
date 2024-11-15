@@ -9,3 +9,12 @@ import Navbar from '@/components/NavbarComponent.vue'
     <RouterView />
   </div>
 </template>
+
+<style>
+:target {
+  scroll-margin-top: 12vh;
+}
+html {
+  scroll-behavior: smooth;
+}
+</style>

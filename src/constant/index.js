@@ -11,6 +11,7 @@ const imageEducation2 = '/images/Logo_Bangkit.png'
 const imageCertificate1 = '/images/dicoding_logo.jpg'
 const imageCertificate2 = '/images/gcsb_logo.jpg'
 const imageCertificate3 = '/images/google_logo.jpg'
+const imageCertificate4 = '/images/aceimage.png'
 
 const projects = [
   {
@@ -129,7 +130,7 @@ const techs = [
 ]
 const certificates = [
   {
-    image: imageCertificate3,
+    image: imageCertificate4,
     title: 'Associate Cloud Engineer Certification',
     subtitle: 'Google',
     link: 'https://www.credly.com/badges/7d0d43a6-5840-4846-a87e-fcf8bac8096f/linked_in_profile',

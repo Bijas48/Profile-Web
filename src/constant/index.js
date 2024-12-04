@@ -3,6 +3,7 @@ const imageProject2 = '/images/UMM-Refactor-Website.png'
 const imageProject3 = '/images/SahabatBK.png'
 const imageProject4 = '/images/MendangMendingApp.png'
 const imageProject5 = '/images/Vue-Project.png'
+const imageProject6 = '/images/nuxt-exploration.png'
 const imageExperience1 = '/images/Logo_UPI.png'
 const imageExperience2 = '/images/Prolite_News.png'
 const imageExperience3 = '/images/GDSC.jpg'
@@ -47,6 +48,13 @@ const projects = [
     title: 'Vue Job',
     desc: 'Vue Job is an exploratory web application developed to learn Vue.js. It serves as a hands-on project to experiment with commonly used features on websites, incorporating Vue.js libraries and utilities. The web application explores various aspects of Vue.js to help users understand its capabilities and best practices in real-world web development scenarios.',
     link: 'https://github.com/Bijas48/Vue-Job-',
+    type: 'Exploration',
+  },
+  {
+    image: imageProject6,
+    title: 'Nuxt Recipe App',
+    desc: 'Nuxt Recipe App is a recipe application built using the dummyJSON API, designed to showcase Nuxt.js structure and functionalities. It serves as a training tool for learning Nuxt.js, providing a practical approach for exploring recipes.',
+    link: 'https://github.com/Bijas48/Recipes-App',
     type: 'Exploration',
   },
 ]
@@ -96,6 +104,7 @@ const experiences = [
 ]
 const techs = [
   'devicon:vuejs',
+  'devicon:nuxtjs',
   'devicon:googlecloud',
   'devicon:kubernetes',
   'devicon:bash',

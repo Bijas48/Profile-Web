@@ -202,8 +202,8 @@ onMounted(() => {
           class="absolute bg-slate-300 bottom-10 right-15 lg:right-7 w-fit h-15 px-10 lg:h-20 lg:px-20 py-1 text-center rounded-2xl font-semibold shadow-md scale-90 hover:scale-100 duration-300 transition-all hover:shadow-lg hover:shadow-gray-400"
         >
           <div class="flex flex-col items-center justify-center py-2">
-            <p class="text-xs md:text-sm lg:text-base">Currently working on</p>
-            <span class="font-bold text-base md:text-lg lg:text-xl">PT Usaha Maju Makmur</span>
+            <p class="text-xs md:text-sm lg:text-base">Currently as</p>
+            <span class="font-bold text-base md:text-lg lg:text-xl">Student</span>
           </div>
         </div>
       </div>

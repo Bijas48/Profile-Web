@@ -7,6 +7,7 @@ const imageProject6 = '/images/nuxt-exploration.png'
 const imageExperience1 = '/images/Logo_UPI.png'
 const imageExperience2 = '/images/Prolite_News.png'
 const imageExperience3 = '/images/GDSC.jpg'
+const imageExperience4 = '/images/ummcoalindo_logo.jpeg'
 const imageEducation1 = '/images/Logo_UPI.png'
 const imageEducation2 = '/images/Logo_Bangkit.png'
 const imageCertificate1 = '/images/dicoding_logo.jpg'
@@ -99,6 +100,22 @@ const experiences = [
     ],
     link: 'https://www.linkedin.com/company/google-developer-student-clubs-upi',
     type: 'Seasonal',
+    color: 'bg-slate-300',
+  },
+  {
+    title: 'IT Specialist Intern at PT Usaha Maju Makmur',
+    date: 'September - December 2024',
+    image: imageExperience4,
+    desc: [
+      'Refactored the company website using Vue.js for better performance.',
+      'Conducted website maintenance and security checks.',
+      'Assisted Audit and Tax teams in reconciling financial records.',
+      'Improved UI/UX with redesigns and animations.',
+      'Managed office network infrastructure and device monitoring.',
+      'Collaborated on technical issues with cross-functional teams.',
+    ],
+    link: 'https://www.linkedin.com/company/google-developer-student-clubs-upi',
+    type: 'Full-time',
     color: 'bg-slate-300',
   },
 ]
